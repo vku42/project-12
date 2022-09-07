@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,400&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: "Roboto";
+    
+}
+
+/* header section */
+ header {
+    background-color: #343333;
+    padding: 20px 100px;
+    color: #fff;
+
+ }
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+ }
+
+ .controls {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30%;
+    color: #999999;
+    cursor: pointer;
+
+ }
+
+ .controls li {
+    list-style-type: none;
+ }
+
+ .controls li:hover {
+    color: #fff;
+ }
+
+ /* _____________________________________ */
+
+ .img1 img {
+   width: 450px;
+   height: 500px;
+   object-fit: cover;
+ }
+
+ .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    padding-bottom: 40px;
+ }
+
+ .img1 { text-align: center;
+
+ }
+
+ .hero_right h1 {
+   margin-top: 25px;
+   font-size: 4rem;
+ }
+
+ .hero_right p {
+   margin-top: 50px;
+   line-height: 1.5rem;
+   width: 80%;
+   margin-bottom: 50px;
+   font-weight: 300;
+ }
+
+ .subscribe {
+   background-color: #fff;
+   width: fit-content;
+   padding: 10px 10px;
+ }
+
+ .subscribe img {
+   width: 1rem;
+ }
+
+ .subscribe input {
+   margin-left: 3px;
+   border: none;
+   outline-width: 0;
+   font-size: 1rem;
+   width: 350px;
+ }
+
+ .btn_format {
+   border: none;
+   background-color: #8BB7A2;
+   color: #fff;
+   padding: 10px 30px;
+   cursor: pointer;
+ }
+
+
+ /* second section  */
+
+ .second_sec {
+   padding: 20px 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+ }
+
+.s2_image img {
+   width: 100%;
+}
+
+ .data {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 40px;
+
+ }
+ .data div h3 {
+  font-size: 1.5rem;
+ }
+
+ .data div p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+ }
+
+ .sec_in h2 {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+ }
+
+ /* third section  */
+
+ .third_sec {
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .third_in { 
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .third_left h3 {
+  margin-top: 10%;
+  font-size: 2rem;
+  margin-bottom: 15px;
+
+ }
+
+ .third_left p {
+
+  color: #999999;
+  width: 75%;
+  margin-bottom: 20px;
+ } 
+
+ .img3 img{
+  max-width: 300px;
+  height: 300px;
+  margin-left: 60px;
+  object-fit: cover;
+  object-position: 60% 0px;
+ 
+ }
+
+ /* forth section */
+
+ .forth_sec , .fifth_sec,  .team , footer{
+  padding: 20px 100px;
+ }
+
+ .forth_in, .fifth_in {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .forth_in div img,  .fifth_in div img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0px 10px;
+
+ }
+
+ .forth_in div img {
+  margin-right: 50px;
+ }
+
+ .forth_in div h3,  .fifth_in div h3  {
+  margin-top: 10%;
+  font-size: 2rem;
+  margin-bottom: 20px;
+ }
+
+ .forth_in div p, .fifth_in div p  {
+  margin-bottom: 20px;
+  color: #999999;
+ }
+
+ /* fifth section */
+
+ .fifth_in div img {
+  margin-left: 50px;
+ }
+
+ /*  team section */
+
+ .team {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .team_in_top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+ }
+
+ .team_in_top p {
+  margin-left: 40px;
+  width: 80%;
+ }
+
+ .team_in_below {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .team_card img{
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 15px;
+ }
+
+.team_card p {
+  margin-top: 15px;
+  width: 250px;
+  color: #999999;
+  font-size: 0.8rem;
+}
+
+/* -------------------- */
+.foot_seprator {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* footer */
+footer {
+  background-color:  #272727;
+}
+
+.nav_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.nav_top div a {
+  background-color: #727272;
+  margin-left: 10px;
+  padding: 7px 10px;
+  border-radius: 50%;
+}
+
+.divider {
+  background-color: #fff;
+  height: 1px;
+  margin-bottom: 25px;
+}
+
+.nav_bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.nav_bottom div p {
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+
+/* lets make it responsive!! */
+
+@media screen and (max-width: 1226px) {
+
+  .controls {
+    margin-left: 15%;
+ }
+
+  .subscribe input {
+    width: 150px;
+    font-size: 0.8rem;
+  }
+
+  .hero_right {
+    margin-left: 20px;
+  }
+
+  .hero_right h1 {
+    font-size: 2.5rem;
+  }
+  
+}
+
+@media screen and (max-width: 1000px){
+  .controls {
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: space-between;
+ }
+
+ .btn_format {
+  padding: 5px 15px;
+}
+
+.hero_right h1 {
+  font-size: 2rem;
+}
+
+.img1 img {
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.team_card img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 15px;
+ }
+
+ .team_card p {
+  width: 200px;
+ }
+
+
+ header, .second_sec, .third_sec , .forth_sec , .fifth_sec,  .team , footer{
+  padding: 5px 20px;
+
+}
+
+
+}
+
+/* _______mobile______ */
+
+@media screen and (max-width: 750px){
+  .controls { 
+    display: none;
+  }
+
+  .hero { 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hero_right h1 {
+    font-size: 3rem;
+  }
+
+  .img1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .third_in { 
+    flex-direction: column;
+  }
+
+  .img3{
+    text-align: center;
+
+  }
+
+  .img3 img{
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0px;
+   
+   }
+
+   .forth_in, .fifth_in {
+    display: flex;
+    flex-direction: column;
+    padding:0px;
+    margin-top: 0px;
+   }
+
+   .forth_in div img,  .fifth_in div img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+   }
+
+   .forth_in div, .fifth_in div {
+    text-align: center;
+   }
+
+   .forth_in div img {
+    margin-right: 0px;
+   }
+
+   .fifth_in div img {
+    margin-left: 0px;
+   }
+
+   .team_in_top {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+   }
+
+   .team_in_top p {
+    margin-left: 40px;
+    width: 90%;
+   }
+
+   .team_in_below {
+    flex-direction: column;
+    align-items: center;
+   }
+
+}
